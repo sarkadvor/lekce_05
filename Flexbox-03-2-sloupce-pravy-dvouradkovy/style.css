@@ -15,3 +15,24 @@ body {
 .dolni { background-color: #e74c3c;}
 
 /* ---------------------------------------------------- */
+
+.kontejner {
+    display: flex;
+}
+
+.levy,
+.druhy {
+    flex-basis: 50%;
+}
+
+.druhy {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.horni,
+.dolni {
+    flex-basis: 50%;
+}
+
