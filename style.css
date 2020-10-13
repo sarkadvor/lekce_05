@@ -1,0 +1,62 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+body {}
+
+.container {}
+
+.item {}
+
+/* ------------ design, colours --------- */
+
+.item {
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.item:hover {
+    opacity: 0.6;
+}
+
+.item--1 {
+    background-color: #2ecc71;
+}
+
+.item--2 {
+    background-color: #f1c40f;
+}
+
+.item--3 {
+    background-color: #3498db;
+}
+
+.item--4 {
+    background-color: #e74c3c;
+}
+
+.item--5 {
+    background-color: #9b59b6;
+}
+
+.item--6 {
+    background-color: #21ebda;
+}
+
+.item--7 {
+    background-color: #f05bdc;
+}
+
+.item--8 {
+    background-color: #e60f33;
+}
